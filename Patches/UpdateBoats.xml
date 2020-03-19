@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Change descriptions to be better fit with canoes  -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="Rowboat"]/description</xpath>
+		<value>
+			<description>Build small boats designed for caravans with limited space.</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="FishingBoat"]/description</xpath>
+		<value>
+			<description>Build fishing boats capable of catching fish in the sea, or on a lake or river.</description>
+		</value>
+	</Operation>
+	
+</Patch>			

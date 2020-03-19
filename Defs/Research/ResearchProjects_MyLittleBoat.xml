@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>	
+	
+	<ResearchProjectDef>
+		<defName>Canoe</defName>
+		<label>canoe</label>
+		<tab>RimShips</tab>
+		<description>Build canoes. One-man tribal boats for quick travels.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>FishingCanoe</defName>
+		<label>fishing canoe</label>
+		<tab>RimShips</tab>
+		<description>Build fishing canoes capable of catching fish in the sea, or on a lake or river.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>Canoe</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Sloop</defName>
+		<label>sloop</label>
+		<tab>RimShips</tab>
+		<description>Build sloops. Small versatile ships that are capable of fishing and useful for trade.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>FishingBoat</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>	
+	
+</Defs>
